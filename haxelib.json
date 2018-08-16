@@ -1,0 +1,17 @@
+{
+  "name": "react-native-firebase",
+  "license": "MIT",
+  "tags": [
+    "react-native",
+    "firebase"
+  ],
+  "classPath": "src",
+  "contributors": [
+    "kevinresol"
+  ],
+  "releasenote": "initial release",
+  "version": "0.0.0",
+  "dependencies": {
+    "react-native": ""
+  }
+}
