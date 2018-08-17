@@ -5,5 +5,5 @@ extern class Notifications {
 	function requestPermission():js.Promise<Nothing>;
 	function onNotification(cb:Notification->Void):Void->Void;
 	function onNotificationDisplayed(cb:Notification->Void):Void->Void;
-	function onNotificationOpened(cb:Notification->Void):Void->Void;
+	function onNotificationOpened(cb:NotificationOpen->Void):Void->Void;
 }
